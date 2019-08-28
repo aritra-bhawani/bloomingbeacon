@@ -1,0 +1,28 @@
+.countdown {
+  margin-top: 2vh;
+  font-family: 'Poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+.countdown div {
+  width: 15vw;
+  padding: 1vh 1vw 1vh 1vw;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 1vw;
+  background-color: #fff;
+}
+.countdown span {
+  display: block;
+  font-size: 1.5rem;
+  font-family: Poppins
+}

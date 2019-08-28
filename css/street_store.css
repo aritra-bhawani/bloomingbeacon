@@ -1,0 +1,240 @@
+.events_main_content{
+  position: relative;
+}
+.events_main span{
+    color: #1F618D;
+    display: inline-block;
+}
+
+@media only screen and (min-device-width: 1100px){
+  .mobile{
+    display: none;
+  }
+  .events_main h3{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin: 0;
+  }
+  .fund_content h5{
+      font-family: 'Poiret One', sans-serif;
+      font-size: 4.0rem;
+      padding: 2vh 0 3vh 0;
+  }
+  .fund{
+    margin: 10vh 0 5vh 0;
+    position: relative;
+    height: 65vh;
+    background-color: ;
+  }
+  .iframe1{
+  position: relative;
+  float: left;
+  height: 60vh;
+  width: 50vw;
+  border: 1px solid;
+  padding: 0px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;  
+  }
+  .fund_content{
+  position: relative;
+  float: left;
+  height: 50vh;
+  width: 45vw;
+  padding: 5vh 0 5vh 0;
+  /*background-image: linear-gradient(to top, #fff 0%, #000 100%);*/
+  }
+  .ak{
+    height: 60vh;
+  }
+  .ak_content{
+    position: relative;
+    float: left;
+    height: 50vh;
+    width: 45vw;
+    padding: 1vh 5vw 0vh 5vw;
+  }
+  .iframe2{
+    position: relative;
+    float: right;
+    width: 50vw;
+  }
+  .fb_iframe{
+    border: 1px solid;
+    padding: 0px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+  .blogs{
+    margin: 5vh 0 6vh 0;
+    position: relative;
+  }
+  .icons{
+    margin: 3vh 0 0 0;
+    width: 100vw;
+    background-color: ;
+    display: inline-block;
+  }
+  .icons img{
+    margin: 0 1vw 0 1vw;
+  }
+
+  .direction{
+    height: 50vh;
+    margin: 10vh 0 6vh 0;
+  }
+  .iframe3{
+    position: relative;
+    float: left;
+    width: 40vw;
+  }
+  .iframe_maps{
+    border: 2px solid;
+    padding: 0px;
+    box-shadow: 5px 10px 18px #888888;
+  }
+  .direction_content{
+    position: relative;
+    float: right;
+    height: 50vh;
+    width: 56vw;
+    padding: 4vh 5vw 0vh 5vw;
+  }
+  .spon_gr1, .spon_gr2, .spon_gr3{
+    display: inline-block;
+  }
+  .spon_gr1 img{
+    width: 10vw;
+    margin: 1vh 3vw 1vh 3vw;
+    background-color: white;
+  }
+  .spon_gr2 img{
+    width: 15vw;
+    margin: 1vh 3vw 1vh 3vw;
+    background-color: white;
+  }
+  .spon_gr3 img{
+    height: 18vh;
+    margin: 3.5vh 3vw 1vh 3vw;
+    background-color: white;
+  }
+  .ss_but 
+  {
+    margin: 3vh 0 0 0;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  .ss_but:hover 
+  {
+      background-color: #555555;
+      color: white;
+  }
+}
+
+@media only screen and (max-device-width: 1100px){
+  .pc{
+    display: none;
+  }
+  .events_main h3{ 
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 3.7em;
+    margin: 0;
+  }
+  .fund{
+    margin: 4vh 0 4vh 0;
+    position: relative;
+    height: auto;
+  }
+  .iframe1{
+    display: none;
+  }
+  .fund_content h5{
+      font-family: 'Poiret One', sans-serif;
+      font-size: 4.7rem;
+  }
+  .fund_content p{
+      font-family: 'Poiret One', sans-serif;
+      font-size: 2.5rem;
+  }
+  .ak{
+    margin:4vh 0 4vh 0;
+  }
+  .ak_content p{
+    font-size: 2.5rem;
+    padding: 0 7vw 0 7vw;
+  }
+  
+  .blogs{
+    margin:4vh 0 4vh 0;
+  }
+  .icons img{
+    height: 3rem;
+    margin: 1vh 4vw 1vh 4vw;
+  }
+  .direction{
+    margin:4vh 0 4vh 0;
+  }
+  .direction_content p{
+    font-size: 2.5rem;
+    padding: 0 7vw 0 7vw;
+  }
+  .sponsors{
+    margin: 5vh 0 2vh 0;
+  }
+  .spon_gr1, .spon_gr2, .spon_gr3{
+    display: inline-block;
+  }
+  .spon_gr1 img{
+    width: 25vw;
+    margin: 0vh 3vw 1vh 3vw;
+    background-color: white;
+  }
+  .spon_gr2 img{
+    width: 25vw;
+    margin: 1vh 3vw 1vh 3vw;
+    background-color: white;
+  }
+  .spon_gr3 img{
+    height: 10vh;
+    margin: 1vh 3vw 0vh 3vw;
+    background-color: white;
+  }
+  .down{
+    font-size: 2.5rem;
+    padding: 0 7vw 0 7vw;
+  }
+  .ss_but 
+  {
+    margin: 3vh 0 3vh 0;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 3rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  .ss_but:hover 
+  {
+      background-color: #555555;
+      color: white;
+  }
+}
+

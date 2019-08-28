@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Poiret+One|Patrick+Hand+SC|Montserrat|Lora:400,700');
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  overflow:;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  position: absolute;
+}
+h1{
+  font-family: 'Poiret One', sans-serif;
+  font-weight: 700;
+  font-size: 4.5em;
+  margin: 0;
+}
+p{
+  font-family: Poppins;
+  font-size: 1.6rem;
+}
+
+/*
+@media only screen and (min-device-width: 815px) and (max-device-width: 630px) and (min-device-height: 415px) and (max-device-height: 359px){
+  .rotate_screen{
+    display: none;
+  }
+}
+*/
+
+.show{
+  background-color: #3498DB;
+  height: 100vh; 
+  width: 100vw; 
+  color: #fff; 
+  position: fixed; 
+  overflow: hidden; 
+  z-index: 9999999; 
+  font-family: Poppins;
+}
+.dont_show{
+  display: none;
+}
+
+/*=========nav-bar==========*/
+/*=======PC=======*/
+@media only screen and (min-device-width: 1100px){
+  .navbar{
+    display: none;
+  }
+
+
+  .content_pc {
+    margin-top: 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding:0;
+    box-shadow: 0px 0px 20px 0px #000000;
+  }
+  .r{
+    display: block;
+  }
+
+  .btn {
+    display: block;
+    display: inline-block;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+  }
+  .btn span {
+    padding: .5em 1.5em;
+    position: relative;
+    display: inline-block;
+    background:#fff;
+    -webkit-transition: -webkit-transform 2050ms ease;
+    transition: -webkit-transform 2050ms ease;
+    transition: transform 2050ms ease;
+    transition: transform 2050ms ease, -webkit-transform 2050ms ease;
+    -webkit-transform-origin: 50% 0 0;
+            transform-origin: 50% 0 0;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    -webkit-transform: rotateX(0deg) translateY(0);
+            transform: rotateX(0deg) translateY(0);
+    -webkit-transition: background 250ms ease, -webkit-transform 2050ms ease;
+    transition: background 2050ms ease, -webkit-transform 2050ms ease;
+    transition: transform 2050ms ease, background 2050ms ease;
+    transition: transform 2050ms ease, background 2050ms ease, -webkit-transform 250ms ease;
+  }
+  .btn span:before {
+    position: absolute;
+    content: attr(data-hover);
+    top: 100%;
+    left: 0;
+    padding: .5em 1.5em;
+    background: #fff;
+    -webkit-transform-origin: 50% 0 0;
+            transform-origin: 50% 0 0;
+    -webkit-transform: rotateX(-90deg) translateY(0);
+            transform: rotateX(-90deg) translateY(0);
+    -webkit-transition: background 2050ms ease, -webkit-transform 2050ms ease;
+    transition: background 2050ms ease, -webkit-transform 2050ms ease;
+    transition: transform 2050ms ease, background 2050ms ease;
+    transition: transform 2050ms ease, background 2050ms ease, -webkit-transform 250ms ease;
+  }
+
+  .btn:hover span {
+    background: #fff;
+    -webkit-transform: rotateX(90deg) translateY(-2.2em);
+            transform: rotateX(90deg) translateY(-2.2em);
+  }
+  .btn:hover span:before {
+    background: #2E4053;
+    color: #FFFFFF;
+  }
+  
+}
+/*========pc ends=======*/
+
+/*======mobile=======*/
+@media only screen and (max-device-width: 1100px){
+  .content_pc{
+    display: none;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+  }
+  .hamburglar {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
+  margin: 3.5rem 3.5rem;
+  position: relative;
+  display: block;
+  width: 68px;
+  height: 68px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  }
+
+  #top, #bottom {
+    position: absolute;
+    display: block;
+    height: 4px;
+    width: 36px;
+    border-radius: 2px;
+    background: #000;
+  }
+
+  #top {
+    top: 19px;
+    left: 16px;
+  }
+
+  #bottom {
+    top: 41px;
+    left: 16px;
+  }
+
+  path, line {
+    stroke: #fff;
+    stroke-linecap: round;
+  }
+
+  #top, #bottom {
+    -webkit-transform-origin: 34px 2px;
+            transform-origin: 34px 2px;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transition: all 500ms cubic-bezier(0.8, -1.1, 0.5, 1.9);
+    transition: all 500ms cubic-bezier(0.8, -1.1, 0.5, 1.9);
+  }
+
+  #circle {
+    stroke-dasharray: 1 100 32 300;
+    stroke-dashoffset: 101;
+    -webkit-transition: all 750ms ease;
+    transition: all 500ms ease;
+  }
+
+  .hamburglar.is-closed #circle {
+    stroke-dasharray: 1 100 190 300;
+    stroke-dashoffset: 1;
+  }
+  .hamburglar.is-closed #top {
+    -webkit-transform: translateX(-4.5px) rotate(-45deg);
+            transform: translateX(-4.5px) rotate(-45deg);
+  }
+  .hamburglar.is-closed #bottom {
+    -webkit-transform: translateX(-4.5px) rotate(45deg);
+            transform: translateX(-4.5px) rotate(45deg);
+  }
+
+
+  .content{
+    z-index: 100;
+    position: fixed;
+    background-color: #CACFD2;
+    overflow: hidden;
+    width: 100%;
+    font-family: Poppins;
+    box-shadow: 0px 0px 150px 0px #000000;
+  }
+  .opened{
+    float: left;
+    z-index: 10 !important;
+    position: absolute;
+    font-size: 5rem;
+    width:50vw;
+    height: 110vh;
+
+  }
+  .side-nav a{
+    padding-top: 6.5vh;
+    color: #111;
+    text-decoration: none !important;
+    margin: 4vh 0 0 4vw;
+    display: inline-block;
+  }
+  .closed{
+    z-index: 10 !important;
+    position: absolute;
+    font-size: 1rem;
+    width: 0;
+    overflow: hidden;
+    height: 100vh;
+    
+  }
+  .side-nav{
+    padding-top: 10rem;
+    z-index: 0;
+    position: fixed;
+    background-color: #fff;
+    transition: 500ms;
+    font-family: Poppins;
+    box-shadow: 0px 0px 100px 0px #000000;
+  }
+
+  .name{
+    float: right;
+    margin: 2.6rem 8vw 0 0;
+  }
+  .name h1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 4.5rem;
+    font-family: Poppins;
+  }
+}
+/*=======mobile ends=====*/
+/*=========nav-bar ends==========*/

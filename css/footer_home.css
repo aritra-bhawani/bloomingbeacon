@@ -1,0 +1,105 @@
+/*==========social==========*/
+.social{
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    color: black;
+    bottom: 0;
+    background-color: ; 
+    text-align: center; 
+    font-family: Poppins;
+    padding-bottom: 5vh; 
+    box-shadow: 0px 0px 30px 0px #000000;
+    z-index: 100;
+  }
+  .social a{
+    padding: 20px;
+  }
+  @keyframes heartFadeInOut {
+    0% {transform: scale(1);}
+    25% {transform: scale(.97);}
+    35% {transform: scale(.9);}
+    45% {transform: scale(1.1);}
+    55% {transform: scale(.9);}
+    65% {transform: scale(1.1);}
+    75% {transform: scale(1.03);}
+    100% {transform: scale(1);}
+  }
+
+  #heart img.bottom { 
+    animation-name: heartFadeInOut; 
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+
+/*====pc*====*/
+@media only screen and (min-device-width: 1100px){
+  .video_mobile{
+    display: none;
+  }
+  .heart_mobile{
+    display: none;
+  }
+  .social-logos img{
+    width: 4em;
+    height: 4em;
+    margin: .15em;
+    margin-top: .005em;
+    margin-bottom: .2em;
+    margin-right:.15em ;
+    padding: .15em;
+    padding-right: .3em;
+    line-height: .85;
+    background: white; 
+    border-radius: 50%;
+  }
+  .left_content{
+    background-color: black; 
+    list-style: none; 
+    float: left; 
+    display:inline-block; 
+    text-align: center; 
+    width:40%; 
+    padding-top: 5vh;
+  }
+  .right_content{
+    width: 60%; 
+    float: right; 
+    text-align:center; 
+    padding-top: 7vh;
+  }}
+  
+  
+
+
+/*=====mobile=====*/
+@media only screen and (max-device-width: 1100px){
+  .video_pc{
+    display: none;
+  }
+  .heart_pc{
+    display: none;
+  }
+  .social-logos img{
+    width: 9vh;
+    height: 9vh;
+    margin: .15em;
+    margin-top: .005em;
+    margin-bottom: .2em;
+    margin-right:.15em ;
+    padding: .15em;
+    padding-right: .3em;
+    line-height: .85;
+    background: white; 
+    border-radius: 50%;
+  }
+  .left_content h1{
+    padding-top: 5vh;
+    font-size: 7vh;
+  }
+  .ab img{
+    margin: 2vh 0 0 0;
+    height: 10vh;
+  }
+  }  
+/*==========contact ends==========*/

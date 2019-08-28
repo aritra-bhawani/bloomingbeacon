@@ -1,0 +1,214 @@
+/*#particles-js{
+  height: auto;
+}
+body{
+    color:red;
+}
+.street_store span{
+    color: #1F618D;
+    display: inline-block;
+}
+@media only screen and (min-device-width: 1100px){
+  .events_main{
+    margin: 15vh 0 5vh 0;
+  }
+  .events_main_content{
+    margin: 5vh 5vw 0 5vw;
+
+  }
+  .events_main_content h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 4.0em;
+    margin: 0;
+  }
+  .events_main_content img{
+      width: 30vh;
+      height: 30vh;
+      margin: 3vh 0 2vh 0;
+      background: white; 
+      border-radius: 50%;
+  }
+  
+}
+
+@media only screen and (max-device-width: 1100px){
+  .events_main{
+    margin: 15vh 0 5vh 0;
+  }
+  .events_main h1{
+    font-size: 9.0em;
+  }
+  .events_main_content{
+    margin: 5vh 5vw 0 5vw;
+
+  }
+  .events_main_content h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 7.0em;
+    margin: 0;
+  }
+  .events_main_content p{
+      font-size: 3rem;
+      padding: 2vh 2vw 0 2vh;
+    }
+  .events_main_content img{
+      width: 20vh;
+      height: 20vh;
+      margin: 3vh 0 2vh 0;
+      background: white; 
+      border-radius: 50%;
+  }
+  }
+*/
+#particles-js{
+  height: auto;
+}
+.street_store span{
+    color: #1F618D;
+    display: inline-block;
+}
+@media only screen and (min-device-width: 1100px){
+  .events_main{
+    margin: 15vh 0 5vh 0;
+  }
+  .events_main_content{
+    margin: 5vh 5vw 0 5vw;
+
+  }
+  .events_main_content h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 3.5em;
+    margin: 0;
+  }
+  .events_main_content img{
+      width: 30vh;
+      height: 30vh;
+      margin: 3vh 0 2vh 0;
+      background: white; 
+      border-radius: 50%;
+  }
+  
+  .street_store{
+    position: relative;
+    height: 80vh;
+  }
+  .street_store h2{
+    margin: 2vh 0 0 0;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 10vh;
+    margin: 0;
+  }
+  .left, .right{
+    width: 45vw;
+    position: relative;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right;
+  }
+  .left img{
+    margin: 3vh 0 0 0;
+    height: 40vh;
+  }
+  .right h3{
+    margin: 7vh 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+  .ss_but 
+  {
+    margin: 3vh 0 0 0;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  .ss_but:hover 
+  {
+      background-color: #555555;
+      color: white;
+  }
+}
+
+@media only screen and (max-device-width: 1100px){
+  .events_main{
+    margin: 15vh 0 5vh 0;
+  }
+  .events_main h1{
+    font-size: 7.0em;
+  }
+  .events_main_content{
+    margin: 5vh 5vw 0 5vw;
+  }
+  .events_main_content h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 5.0em;
+    margin: 0;
+  }
+  .events_main_content p{
+      font-size: 3rem;
+      padding: 2vh 2vw 0 2vh;
+    }
+  .events_main_content img{
+      width: 20vh;
+      height: 20vh;
+      margin: 3vh 0 2vh 0;
+      background: white; 
+      border-radius: 50%;
+  }
+
+  .street_store{
+    position: relative;
+  }
+  .street_store h2{
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 400;
+    font-size: 6.0em;
+    margin: 0;
+  }
+  .right h3{
+    font-size: 3rem;
+  }
+  .street_store img{
+    width: 60vw;
+    float: ;
+  }
+  .ss_but 
+  {
+    margin: 3vh 0 3vh 0;
+    font-family: Poppins;
+    font-weight: 400;
+    padding: 1.5vh 1.5vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 3rem;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  .ss_but:hover 
+  {
+      background-color: #555555;
+      color: white;
+  }
+  }
+

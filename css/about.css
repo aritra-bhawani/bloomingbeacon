@@ -1,0 +1,320 @@
+
+#particles-js{
+  height: auto;
+}
+
+.vision{
+    position: relative;
+    margin-top: 13vh;
+    overflow: ;
+    text-align: center; 
+    font-family: Poppins;
+    z-index: 100;
+  }
+  .vision .left h1{
+    font-size: 4em;
+    font-weight: 400;
+  }
+  @media only screen and (min-device-width: 1100px){
+  .vision_content{
+    margin: 7vh 0 4vh 0; 
+  }
+  .c1{
+  	height: 50vh;
+  }
+  .c2{
+  	height: 45vh;
+  }
+  .c3{
+    height: 30vh;
+  }
+  .vision .left{
+    list-style: none; 
+    float: left; 
+    display:inline-block; 
+    width:40%; 
+    padding-top: vh;
+  }
+  .vision .right{
+    width: 60%; 
+    float: right; 
+    padding-top: vh;
+    display:inline-block; 
+  }
+}
+
+@media only screen and (max-device-width: 1100px){
+  	.vision{
+  		margin: 17vh 0 5vh 0;
+  	}
+  	.vision h1{
+  		font-size: 9rem;
+  	}
+  	.vision_content{
+    	margin: 5vh 0 0vh 0; 
+  	}
+  	.vision .vision_content h1{
+  		font-size: 7rem;
+  	}
+  	.vision .vision_content p{
+  		font-size: 3rem;
+  		padding: 2vh 5vw 0 5vw;
+  	}
+  }
+
+/*===========our team============*/
+@media only screen and (min-device-width: 1100px){
+  .members{
+    position: relative;
+  }
+  .members img{
+    box-shadow: 0px 0px 30px 0px #000000;
+    width: 70vw;
+    float: left;
+  }
+  .our_team {
+    position: relative;
+    margin-top: ;
+    padding-top: ;
+    padding-left: 35vh;
+    font-family: Poppins;
+    color: #5D6D7E;
+    font-size: 10rem;
+    float: right;
+  }
+
+  .years h5{
+    position: relative;
+    display: inline-block;
+    padding:20vh 60vw 3vh 0;
+    color: black;
+    font-size: 4.5rem;
+    float: left;
+    font-family: 'Poiret One';
+
+  }
+  .year1 h5{
+    position: relative;
+    display: inline-block;
+    padding:0vh 60vw 3vh 0;
+    color: black;
+    font-size: 4.5rem;
+    float: left;
+    font-family: 'Poiret One';
+  }
+.caption {
+  height: auto;
+  margin: 80px auto 0 auto;
+  width: 100vw;
+  /* Image Box Style */
+  /* Caption Common Style */
+}
+.caption .caption_single {
+  cursor: pointer;
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  -moz-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+.caption img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+.caption .caption_single--content {
+  font-family: Poppins;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: absolute;
+  color: #fff;
+  z-index: 100;
+  left: 0;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+.caption .caption_single--name {
+  font-size: 1.3em;
+}
+.caption .caption_single--job {
+  margin: 0.4em 0em;
+}
+.caption .caption_single--social {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.caption .caption_single--social li {
+  display: inline-block;
+}
+.caption .caption_single--social a {
+  color: #fff;
+  margin: 5px;
+}
+.caption .caption_single--social a:hover {
+  color: pink;
+  margin: 5px;
+}
+.caption .caption_single--divider {
+  border-top: 3px solid pink;
+  width: 50px;
+  display: block;
+  margin: 10px auto;
+}
+.caption .fade-caption {
+  text-align: center;
+  opacity: 0;
+  width: 25vw;
+  height: 25vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 35%;
+}
+.caption .caption_single--hover img {
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.caption .caption_single--hover .fade-caption {
+  opacity: 1;
+}
+}
+
+
+
+
+@media only screen and (max-device-width: 1100px){
+  .members{
+      position: relative;
+    }
+  .members img{
+      box-shadow: 0px 0px 30px 0px #000000;
+      width: 100vw;
+    }
+  .our_team {
+    margin-top: -6.0vh;
+    position: relative;
+    font-family: Poppins;
+    color: #5D6D7E;
+    font-size: 11rem;
+    }
+  .year1 h5{
+    display: inline-block;
+    padding:2vh 0vw 0vh 0;
+    font-size: 6.5rem;
+    font-family: 'Poiret One';
+  }
+  .years h5{
+    display: inline-block;
+    padding:5vh 0 0 0;
+    font-size: 6.5rem;
+    font-family: 'Poiret One';
+  }
+  
+
+
+
+
+
+  .caption {
+  height: auto;
+  margin: 80px auto 0 1vh;
+  width: 99vw;
+  /* Image Box Style */
+  /* Caption Common Style */
+}
+.caption .caption_single {
+  cursor: pointer;
+  height: 33vw;
+  width: 33vw;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  -moz-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+.caption img {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+.caption .caption_single--content {
+  font-family: Poppins;
+  background-color: rgba(100, 100, 100, 0.5);
+  position: absolute;
+  color: #fff;
+  z-index: 100;
+  left: 0;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -o-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+.caption .caption_single--name {
+  font-size: 1.3em;
+}
+.caption .caption_single--job {
+  margin: 0.4em 0em;
+}
+.caption .caption_single--social {
+  margin-top: 15px;
+  font-size: 20px;
+}
+.caption .caption_single--social li {
+  display: inline-block;
+}
+.caption .caption_single--social a {
+  color: #fff;
+  margin: 5px;
+}
+.caption .caption_single--social a:hover {
+  color: pink;
+  margin: 5px;
+}
+.caption .caption_single--divider {
+  border-top: 3px solid pink;
+  width: 50px;
+  display: block;
+  margin: 10px auto;
+}
+.caption .fade-caption {
+  text-align: center;
+  opacity: 0;
+  width: 33vw;
+  height: 33vw;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 35%;
+}
+.caption .caption_single--hover img {
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.caption .caption_single--hover .fade-caption {
+  opacity: 1;
+}
+}
+
+
+/*background: rgba(250, 250, 250, 0.75);
